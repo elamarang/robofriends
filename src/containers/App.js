@@ -5,6 +5,7 @@ import Scroll from '../components/Scroll';
 import {setSearchField, requestRobots} from '../actions';
 import {connect} from 'react-redux';
 import './App.css';
+import './App.scss';
 
 const mapStateToProps = state => {
     return{
